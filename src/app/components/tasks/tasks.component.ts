@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {HttpClient, HttpHeaders} from '@angular/common/http'
 import { TaskService } from '../../services/task.service';
 
-import { TASKS } from '../../mock-tasks';
 import { Task } from '../../Task';
 
 @Component({
